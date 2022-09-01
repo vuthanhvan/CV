@@ -17,7 +17,15 @@
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-
+    <!-- <script type="text/javascript">
+        $(window).on('scroll', function () {
+            if ($(window).scrollTop()) {
+                $('.nav').addClass('black');
+            } else {
+                $('.nav').removeClass('black');
+            }
+        })
+    </script> -->
 
 </head>
 
@@ -128,10 +136,154 @@
                             <div class="txt">View my CV here</div>
                             <i class="fas fa-hand-point-right"></i>
                         </div>
-                        <div class="avatar">
-                            <a href="#"><img
-                                    src="https://i.pinimg.com/564x/86/3b/29/863b29b5b150d79082469fc516169520.jpg"
-                                    alt=""></a>
+
+                        <div class="my-cv1">
+                            <label for="nav-mobile-input" class="avatar nav__bars-btn">
+                                <img src="https://i.pinimg.com/564x/86/3b/29/863b29b5b150d79082469fc516169520.jpg"
+                                    alt="">
+
+
+                            </label>
+                            <input style="width: 100px; height: 100px;" type="checkbox" name="" class="nav-input"
+                                id="nav-mobile-input">
+                            <label for="nav-mobile-input" class="nav__bars-btn"></label>
+                            <label for="nav-mobile-input" class="nav-overlay"></label>
+                            <nav class="menu-mobile">
+                                <div class="nav">
+                                    <label for="nav-mobile-input" class="menu-mobile-close">
+                                        <i class="fas fa-times"></i>
+                                    </label>
+                                </div>
+
+                                <div class="infor-CV">
+                                    <div class="infor">
+                                        <h1 class="name">Vũ Thị Thanh Vân</h1>
+                                        <div class="infor-me">
+                                            <div class="information-me">
+                                                <h4>Intern Front-end Developer</h4>
+                                                <table>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>🎂</td>
+                                                            <td>25/09/2000</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>📞</td>
+                                                            <td><a href="tel:+84971320713">+84971320713</a></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>✉️ </td>
+                                                            <td>yumevu259@gmail.com</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>📍</td>
+                                                            <td>Xã Tân Triều, Thanh Trì, Hà Nội.</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>🔗</td>
+                                                            <td><a href="https://yumevan.dev/"
+                                                                    target="_blank">https://yumevan.dev/</a>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div class="img-me">
+                                                <img src="/img/me-van.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="target">
+                                            <div class="infor-icon">
+                                                <span>✍️</span>
+                                                <p>MỤC TIÊU NGHỀ NGIỆP</p>
+                                            </div>
+                                            <div>Hiện em đang là sinh viên năm 4 chuyên ngành Công nghệ thông tin. Em có
+                                                kiến thức căn bản HTML/CSS. Em mong muốn tìm được công việc thực tâp phù
+                                                hợp với bản thân, được học hỏi tích lũy thêm kinh nghiệm. Hiện tại em có
+                                                lịch học vài buổi trên trường, em mong muốn có thể thực tập part-time ạ.
+                                                Mong công ty có thể tạo điều kiện cho em ạ. Em sẽ cố gắng phấn đấu nỗ
+                                                lực hoàn thành tốt công việc và đạt hiệu đạt hiệu quả cao.</div>
+                                        </div>
+                                        <div class="education">
+                                            <div class="edu">
+                                                <div class="hocvan">
+                                                    <div class="infor-icon">
+                                                        <span>📕</span>
+                                                        <p>HỌC VẤN</p>
+                                                    </div>
+                                                    <table>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>🏫</td>
+                                                                <td>Học viện Kỹ thuật Mật mã</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>🎖️</td>
+                                                                <td>kỹ sư, Công nghệ thông tin</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>🕓</td>
+                                                                <td> 2018-2023</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <div class="active">
+                                                        <h3 style="font-weight: 100 ;">HOẠT ĐỘNG</h3>
+                                                        <ul>
+                                                            <li>Thành viên CLB võ thuật KMA - KNIGHT TEAM 2020-2021</li>
+                                                            <li>Tình nguyện viên ĐỘI thanh niên vận động hiến máu Học
+                                                                viện Kỹ thuật Mật mã 2018-2020</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="skill">
+                                                <div style=" margin-bottom: 20px;">
+                                                    <div class="infor-icon">
+                                                        <span>✨</span>
+                                                        <p>KỸ NĂNG</p>
+                                                    </div>
+                                                    <div style="margin-left: 30px;">HTML/CSS</div>
+                                                </div>
+                                                <div>
+                                                    <div class="infor-icon">
+                                                        <span>🏆</span>
+                                                        <p>GIẢI THƯỞNG</p>
+                                                    </div>
+                                                    <div>
+                                                        <ul>
+                                                            <li>Top Cuộc thi viết Her Tech Story Women Techmakers Hanoi
+                                                                2021</li>
+                                                            <li>Tham gia cuộc thi SheCodes Virtual Hackathon 2021</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="infor-icon">
+                                                        <span>👉</span>
+                                                        <p>Projects</p>
+                                                    </div>
+                                                    <div>
+                                                        <ul>
+                                                            <li> <span>🔗</span><a
+                                                                    href="https://yumevan.dev/yumeblog/informations/">https://yumevan.dev/yumeblog/informations
+                                                                </a></li>
+                                                            <li> <span>🔗</span><a
+                                                                    href="https://yumevan.dev/navigation-bar/">https://yumevan.dev/navigation-bar/
+                                                                </a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </nav>
                         </div>
                     </div>
                 </div>
@@ -193,83 +345,6 @@
     </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- <div class="main1">
-        <div class="slider">
-            <div id="sliderimgs" style="display: block">
-                <div id="sliderimg1" class="sliderimg"></div>
-                <div id="sliderimg2" class="sliderimg"></div>
-                <div id="sliderimg3" class="sliderimg"></div>
-            </div>
-        </div>
-        <div id="sliderinfo" style="display:block;">
-            <div id="slidertxt1" class="slidertxt">
-                <div class="caption">
-                    <a href="https://www.facebook.com/wtmhanoi/photos/a.1195264940968792/1199288647233088">
-                        story her</a>
-                </div>
-                <div class="details">
-                    100eeivebireikdskiejfkd
-                </div>
-            </div>
-
-            <div id="slidertxt2" class="slidertxt">
-                <div class="caption">
-                    <a href="https://www.facebook.com/DoimauMatma/photos/a.924615160908324/3330902083612941/">
-                        sinh nhật trong đội máu</a>
-                </div>
-                <div class="details">
-                    Đội Thanh niên vận động hiến máu Học viện Kỹ thuật mật mã
-                </div>
-            </div>
-        </div>
-
-        <div id="slidertxt3" class="slidertxt">
-            <div class="caption">
-                <a href="https://www.facebook.com/uavsnsw/">Cuộc thi Code</a>
-            </div>
-            <div class="details">
-                UAVS - Hội Liên hiệp Sinh viên Việt Nam tại NSW
-            </div>
-        </div>
-    </div>
-
-    <div class="main2">
-        <div class="homemenu">
-            <div id="ml1" class="one_half">
-                <a href="#">
-                    <Span></Span>
-                </a>
-            </div>
-
-        </div>
-    </div> -->
 
 
 
