@@ -143,7 +143,7 @@ body {
 .nav-auto {
     position: absolute;
     width: 800px;
-    margin-top: 460px;
+    margin-top: 461px;
     justify-content: center;
     display: flex;
 
@@ -151,13 +151,13 @@ body {
 
 .nav-auto div {
     border-radius: 2px solid red;
-    padding: 5px;
+    padding: 6px;
     border-radius: 10px;
     transition: 1s;
 }
 
 .nav-auto div:not(:last-child) {
-    margin-right: 40px;
+    margin-right: 42px;
 }
 
 #radio1:checked~.nav-auto .a-b1 {
@@ -250,13 +250,6 @@ body {
     transform: rotate(180deg);
 }
 
-.m1-title {
-    margin-top: -250px;
-    width: 400px;
-    margin-left: 40px;
-
-}
-
 .m1-title h3 {
     margin-bottom: 20px;
 }
@@ -269,6 +262,24 @@ body {
     color: #656270;
 }
 
+.m1-title {
+    margin-top: -250px;
+    width: 400px;
+    margin-left: 40px;
+
+    position: relative;
+    animation: myTitle 5s ease-out infinite;
+}
+
+@keyframes myTitle {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 50px;
+    }
+}
 
 
 
